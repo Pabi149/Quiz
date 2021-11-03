@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+
+    <!-- Start Quiz Button -->
+   
+    <div class="info_box">
+        <div class="info-title"><span>Some Rules of Coding Quiz</span></div>
+        <div class="info-list">
+            <div class="info">1. Answer each question within 15sec.</div>
+            <div class="info">3. No Cheating.</div>
+            <div class="info">4. Think Hard</div>
+            <div class="info">5. Try to finish it Quick</div>
+        </div>
+   
+    </div>
+    <div class="night">
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+    </div>
+    <a href="#" onclick="onStartClick()">
+       Start Quiz
+    </a>
+
+       <!-- Quiz Box -->
+       <div class="quiz_box">
+        <header>
+            <div class="title">Pabys Quiz, Lets Play. </div>
+            <div class="timer">
+                <div class="time_left_txt">Time Left</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+                <!--  insert question from JavaScript -->
+            </div>
+            <div class="option_list">
+                <!-- insert options from JavaScript -->
+            </div>
+        </section>
+
+        <!-- footer of Quiz Box -->
+        <footer>
+            <button class="next_btn">Next Que</button>
+        </footer>
+    </div>
+
+    <!-- Result Box -->
+    <div class="result_box">
+        <div class="complete_text">Thank You for Playing</div>
+        <div class="score_text">
+            <!-- Insert Score Result from JavaScript -->
+        </div>
+        <div class="buttons">
+            <button class="quit">Quit Quiz</button>
+        </div>
+    </div>
+
+
+     <!--  insert Questions and Options only -->
+     <script src="questions.js"></script>
+
+     
+     <script src="script.js"></script>
+  
+    
+  </body>
+</html>
