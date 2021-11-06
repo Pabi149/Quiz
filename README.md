@@ -6,3 +6,6 @@ When users clicks a start button, user should be able to generate different codi
 
 
 ![screenshot](quizimg.png)
+
+Deployed Link: https://pabi149.github.io/Quiz/
+Github Repo: https://github.com/Pabi149/Quiz.git
